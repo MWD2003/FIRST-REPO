@@ -12,6 +12,15 @@ font-weight: bold;
 html{
     scroll-behavior: smooth;
  }
+nav{
+    position: fixed;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+}
  ul{
     display: inline;
     background-color: #fff;
