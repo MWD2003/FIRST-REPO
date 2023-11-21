@@ -4,50 +4,80 @@
     box-sizing: border-box;
     font-family: 'roboto',sans-serif ;
 }
-body{
-background: rgb(207, 13, 149);
-font-size: 14px;
-font-weight: bold;
+header{
+background-image: url(image/developpement.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
 }
-html{
-    scroll-behavior: smooth;
- }
-nav{
-    position: fixed;
-    top:0 ;
-    left: 0;
-    width: 100%;
-    background-color: blue;
-    color: #fff;
-    padding: 10px;
+
+.logo a{
+   color: #fff;
+   padding: 0px 20px;
+   border: 1px solid #fff;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 900;
+   font-size: 1rem;
 }
- ul{
-    display: inline;
-    background-color: #fff;
+.logo span{
+   color: rgb(165, 42, 42);
+   font-weight: bold;
+   font-size: 1rem;
+} 
+
+ul{
+   list-style: none;
+   float: right;
+   display: flex;
+   margin-top: 4px;
 }
- div{
-    color: #fff ;
-    padding:1px 5px ; 
-    border: 1px  #fff ;   
-    position: absolute; 
- }
- a{
-    margin-left: 10px;
-    margin-top: 10px;
-    text-align: horizontal;
-    color:#ce0b0b
-    text-decoration #fff 19px;
-    height: 50px;
- }
- div{
-    color: #cc1884;
-    position: absolute;
-    text-decoration: solid 20px;
- }
-img {
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    text-decoration: none;
-    padding-right:  50%;
- }
+
+ul li{
+   padding:5px 10px ;
+   text-transform: uppercase;
+   border: 1px solid transparent;
+   margin: 10px;
+   color:#fff ;
+   text-decoration: none;
+   font-weight: 500;
+   transition: o.6s ease;
+}
+
+.text{
+   position: absolute;
+   top: 40%;
+   color: #fff;
+}
+.text span{
+   color: brown;
+}
+
+section{
+   margin-left: 10%;
+   position: center;
+}
+
+ul li a:hover{
+   background: #fff;
+   color: #000; 
+}
+
+ul li.active a{
+background: #fff;
+color: #000;
+}
+.principale{
+   max-width: 114rem;
+   margin: 0 auto;
+}
+
+.namefield{
+   list-style: none;
+   float: right;
+   display: flex;
+   margin-top: 4px;
+}
