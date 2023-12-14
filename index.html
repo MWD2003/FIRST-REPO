@@ -3,70 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>l`association des codeurs</title>
     <link rel="stylesheet" href="style.css">
-    <title>Tutoriel</title>
 </head>
 <body>
-    <div class="clip path"></div>
-<header>
-    <a href=""class="logo">porto<span>folio</span></a>
-    <div class="navbar">
-     < nav>
-      <ul>
-        <li><a href="">Accueil</a></li>
-        <li><a href="">A propos</a></li
-        <li><a href="">Service</a></li>
-        <li><a href="">contact</a></li>
-       </ul>
-      </nav>
+ <header>
+    <div class="logo">
+        <a href="#"><span>U</span>nivers<span>Tech</span></a>
     </div>
- <div class="text">
-    <h1>Hello,Bienvenue chez WouryTech...</h1>
-    <h2>Développeuse front-end</h2>
-</div>
-</header>
-<section id="Accueil"></section>
-<section id="A propos de nous">
-    <img src="image/image propos.jpg" alt="image">
-    <h1> <strong> A propos de nous</strong></h1>
-    <p>WouryTech est une plateforme qui regroupe les meilleurs développeurs web en ligne <br>
-     pour fournir un travail remarquable au besoin de la population. <br>
-     Pour plus d`info veiller visiter nos services.  </p>
+     <ul class="principal">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">A props de nous</a></li>
+        <li><a href="#">Formation</a></li>
+        <li><a href="#">Contact</a></li>
+     </ul>
+     <button class="connexion-btn">connexion</button>
+</header> 
+<!-- section Accueil -->
+
+<section id="Accueil"> 
+    <div class="left">
+        <h1>Bienvenue chez <span>UniversTech</span></h1><br>
+        <p><strong> Développez vos compétences et 
+        devenez <br> véritablement actif avec le numérique dès l`enfance.</strong></p>
+    </div>
+    <div class="right">
+        <img src="image/image service.jpg">
+    </div>
 </section>
-<section id="Service">
-   <img src="image/image service.jpg" alt="image">
-   <h1><strong>Service</strong></h1>
-   <p>nous proposons différents service: <br><strong>La conception de site web <br> Le disign <br> Le graphisme...</strong></p>
+    <!-- section A propos de Nous -->
+
+<section id="propos">
+    <div class="left">
+        <h1>A propos de nous</h1>
+        <p>UniversTech est une association <br> de jeunes engagés et talentueux 
+        pour exceller <br> l`éducation numérique au Sénégal en général et dans
+        la région de Kolda en particulier. <br>
+        Nous regroupons des jeunes compétents maitrisant <strong>l`outil informatique</strong> et les
+       <strong> techniques de communication</strong> <br> pour former gratuitement toutes personnes 
+        agée de 10 à 20ans dans le numérique. </p>
+    </div>
+    <div class="right">
+      <h1 class=>Notre Mission</h1>
+      <p>A l`UniversTech, nous voulons aider les enfants et les adolescents à prendre <br>
+       conscience qu`ils peuvent se construire un avenir positif dans le monde numérique.
+       Nous pensons que: <br>
+      <br> La compréhension de l`informatique et
+      ses language de <br> programmation est importante dans le monde d`aujourd`hui. <br>
+      Il est plus facile d`acquérir ces compétences informatiques à un stade précoce. <br>
+      Tout le monde devrait avoir la possilité d`aprendre l`informatique.</p>
+    </div>
 </section>
+
+<!-- section Formation -->
+
+<section class="Formation">
+    <div class="left">
+     <h1><strong>Formation</strong></h1>
+     <p>Nous proposons différentes Formation aux adolescents jeunes: <br>
+     <ul>
+        <li>Bureautique</li><br>
+        <li>Conception de site Web avec les languages HTML et CSS</li><br>
+        <li>Céation de jeux vidéo, Afiche et Logo</li><br>
+        <li>Manupilation des logiciels comme Canva, Postermywell,Adobe photoshop...</li><br>
+     </ul>
+       En plus nous leurs proposons une formation en Technique de communication  <br>
+       afin de leurs permettre de partager leurs idées avec clarté et cohérence.</p>
+    </div>
+    <div class="right">
+      <img src="image/image service.jpg" alt="">
+    </div>
+</section>
+
+<!-- section Contact -->
+
 <section id="Contact">
-   <img src="image/image contact.jpg" alt="image">
-   <h1> <strong>contact</strong></h1>
-   <p>Vous pouvez nous contacter <br></p>
-    <!--formulaire-->
-   <form action="">
-   <div class="name-field">
-<br><div>
-       <label>Prénom</label><br>
-       <input type="text">
-  <br><div>
-         <label>Nom</label><br>
-         <input type="text">
-     <br><div>
-            <label>Adrsse Mail</label><br>
-            <input type="email">
-         <br><div>
-               <label>Mot de passe</label><br>
-               <input type="password">
-               <input type="submit">
-                </div>
-      <section id="title">
-                              <br>
-                              <br><h5>WouryTech-developpeuse-mamadouwoury2003@gmail.com</h5>
-      </section>
-            </div>
-        </div>
-      </div>
-   </form>
+    <div class="left">
+      <h1><strong> Contact</strong></h1>
+      <img src="image/image contact.jpg" alt="">
+      <p>Vous pouvez nous contacter par: <br> Mail:universtech2@gmil.com <br>
+      Tel:772946100</p>
+   </div>
+   <div class="right"> 
+     <h2> Connectez vous</h2><br>
+     <label for="#">Prénom et Nom</label>
+     <input type="text">
+   </div><br>
+   <div>
+    <label for="#">Adresse Mail</label>
+    <input type="email" name="adresse Mail" id="adresse Mail">
+   </div><br>
+   <div>
+    <label for="#">Mot de passe</label>
+    <input type="password">
+    <input type="submit">
+   </div><br>
 </section>
 </body>
 </html>
